@@ -4,3 +4,5 @@ This project makes use of Langgraph to provide critique to a tweet and teels the
 
 generate_chain - generate tweet based on the input
 reflection_chain - Provides critique on the generated tweet until a satisfied tweet is generated.
+
+Project dependencies can be found in "pyproject.toml"
