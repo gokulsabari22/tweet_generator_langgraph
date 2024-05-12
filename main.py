@@ -33,6 +33,7 @@ graph = builder.compile()
 print(graph.get_graph().draw_ascii())
 
 if __name__ == "__main__":
+    print("Hello Langgraph")
     inputs = HumanMessage(content="""Make this tweet better:"
                                     @LangChainAI
             — newly Tool Calling feature is seriously underrated.
